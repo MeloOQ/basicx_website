@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  
+    <title>BasicX - Commands</title>
+	<link rel="stylesheet" href="commands.css"/>
+
+  </head>
+  <body>
+  
+    <span class="nav" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Menu</span>
+	
+	<img src="cmdsheader.jpg"/>
+	
+	<p class="version">Version (0.5)</p>
+	
+    <h1 class="cmds">- Commands -</h1>
+	<a href="https://github.com/jluvisi2021/BasicX/raw/master/Versions/BasicX-LATEST.jar"><img class="download" src="download.png"/></a>
+	
+	<div ="cmdslist">
+	<table class="cmdstable" border="1">
+  <tr>
+    <th style="text-align: center;">Permission</th>
+    <th style="text-align: center;">Command</th>
+    <th style="text-align: center;">Usage</th>
+  </tr>
+  <tr>
+    <td>basicx.info</td>
+    <td>/bxinfo</td>
+    <td>View the author/version page.</td>
+  </tr>
+  <tr>
+    <td>basicx.admin.cfgtest</td>
+    <td>/configtest</td>
+    <td>View the config test message.</td>
+  </tr>
+  <tr>
+    <td>basicx.gamemode.survival</td>
+    <td>/gms</td>
+    <td>Set gamemode to survival.</td>
+  </tr>
+  <tr>
+    <td>basicx.gamemode.creative</td>
+    <td>/gmc</td>
+    <td>Set gamemode to creative.</td>
+  </tr>
+  <tr>
+    <td>basicx.gamemode.spectator</td>
+    <td>/gmsp</td>
+    <td>Set gamemode to spectator.</td>
+  </tr>
+  <tr>
+    <td>basicx.gamemode.adventure</td>
+    <td>/gma</td>
+    <td>Set gamemode to adventure.</td>
+  </tr>
+    <tr>
+    <td>basicx.gamemode.others</td>
+    <td>/gm (player)</td>
+    <td>Modify another players gamemode.</td>
+  </tr>
+    <tr>
+    <td>basicx.gamemode.*</td>
+    <td>/gm</td>
+    <td>Access to all gamemode permissions.</td>
+  </tr>
+    <tr>
+    <td>basicx.tp</td>
+    <td>/tp (player)</td>
+    <td>Teleport to a player.</td>
+  </tr>
+    <tr>
+    <td>basicx.tp.others</td>
+    <td>/tp (player) (player)</td>
+    <td>Teleports a player to another player.</td>
+  </tr>
+    <tr>
+    <td>basicx.tpall</td>
+    <td>/tpall</td>
+    <td>Teleports all players to you.</td>
+  </tr>
+    <tr>
+    <td>basicx.tpall.others</td>
+    <td>/tpall (player)</td>
+    <td>Teleports all players to a specified player.</td>
+  </tr>
+    <tr>
+    <td>basicx.tpa</td>
+    <td>/tpa (player)</td>
+    <td>Request to teleport to a player.</td>
+  </tr>
+    <tr>
+    <td>basicx.tpaccept</td>
+    <td>/tpaccept</td>
+    <td>Accept a teleport request.</td>
+  </tr>
+    <tr>
+    <td>basicx.tpdeny</td>
+    <td>/tpdeny</td>
+    <td>Deny a teleport request.</td>
+  </tr>
+    <tr>
+    <td>basicx.tpatoggle</td>
+    <td>/tpatoggle</td>
+    <td>Toggle incoming teleport requests.</td>
+  </tr>
+    </tr>
+    <tr>
+    <td>basicx.fly</td>
+    <td>/fly</td>
+    <td>Enable/Disable flight.</td>
+  </tr>
+    </tr>
+    <tr>
+    <td>basicx.fly.others</td>
+    <td>/fly (player)</td>
+    <td>Enable/Disable flight for other players.</td>
+  </tr>
+    </tr>
+    <tr>
+    <td>basicx.flyspeed</td>
+    <td>/flyspeed (number)</td>
+    <td>Set flight speed.</td>
+  </tr>
+    </tr>
+    <tr>
+    <td>basicx.walkspeed</td>
+    <td>/walkspeed (number)</td>
+    <td>Set walking speed.</td>
+  </tr>
+    </tr>
+    <tr>
+    <td>basicx.feed</td>
+    <td>/feed</td>
+    <td>Restore your hunger.</td>
+  </tr>
+      <tr>
+    <td>basicx.god.others</td>
+    <td>/god (player)</td>
+    <td>Enable/Disable god mode for another player.</td>
+  </tr>
+        <tr>
+    <td>basicx.god</td>
+    <td>/god</td>
+    <td>Enable/Disable god mode.</td>
+  </tr>
+        <tr>
+    <td>basicx.feed.others</td>
+    <td>/feed (player)</td>
+    <td>Restore the hunger of other players.</td>
+  </tr>
+        <tr>
+    <td>basicx.heal</td>
+    <td>/heal</td>
+    <td>Restore your health.</td>
+  </tr>
+        <tr>
+    <td>basicx.heal.others</td>
+    <td>/heal (player)</td>
+    <td>Restore the health of another player.</td>
+  </tr>
+        <tr>
+    <td>basicx.setlevel</td>
+    <td>/setlevel (player) (amount)</td>
+    <td>Change the level of a player.</td>
+  </tr>
+        <tr>
+    <td>basicx.give64</td>
+    <td>/give64 (itemname)</td>
+    <td>Give yourself a stack of items.</td>
+  </tr>
+        <tr>
+    <td>basicx.more</td>
+    <td>/more</td>
+    <td>Get more out of what you're holding.</td>
+  </tr>
+        <tr>
+    <td>basicx.admin.stats</td>
+    <td>/stats (player)</td>
+    <td>View the stats of a player.</td>
+  </tr>
+        <tr>
+    <td>basicx.getpos</td>
+    <td>/getpos (player)</td>
+    <td>Get the position of a player.</td>
+  </tr>
+        <tr>
+    <td>basicx.time.day</td>
+    <td>/day</td>
+    <td>Set server time to day.</td>
+  </tr>
+        <tr>
+    <td>basicx.time.night</td>
+    <td>/night</td>
+    <td>Set the time to night.</td>
+  </tr>
+        <tr>
+    <td>basicx.time</td>
+    <td>/time</td>
+    <td>Get the server/real time.</td>
+  </tr>
+        <tr>
+    <td>basicx.settime</td>
+    <td>/time set (tick)</td>
+    <td>Set the servers time in ticks.</td>
+  </tr>
+        <tr>
+    <td>basicx.ptime</td>
+    <td>/ptime (tick) | /ptime reset</td>
+    <td>Set your custom time.</td>
+  </tr>
+        <tr>
+    <td>basicx.nick</td>
+    <td>/nick | /nick reset</td>
+    <td>Change your nickname.</td>
+  </tr>
+          <tr>
+    <td>basicx.nick.color</td>
+    <td>/nick (name w/ colors)</td>
+    <td>Add colors to your nickname.</td>
+  </tr>
+          <tr>
+    <td>basicx.msg</td>
+    <td>/msg (player) (message)</td>
+    <td>Send a message to a player.</td>
+  </tr>
+            <tr>
+    <td>basicx.msg.chatcolor</td>
+    <td>/msg (player) (message with color)</td>
+    <td>Message a player with color.</td>
+  </tr>
+            <tr>
+    <td>basicx.repair</td>
+    <td>/repair</td>
+    <td>Repair the item in hand.</td>
+  </tr>
+            <tr>
+    <td>basicx.repair.enchanted</td>
+    <td>/repair</td>
+    <td>Allows you to repair an enchanted item.</td>
+  </tr>
+            <tr>
+    <td>basicx.ignore</td>
+    <td>/ignore</td>
+    <td>Ignore a player.</td>
+  </tr>
+            <tr>
+    <td>basicx.unignore</td>
+    <td>/unignore</td>
+    <td>Stop ignoring an ignored player.</td>
+  </tr>
+            <tr>
+    <td>basicx.ignore.bypass </td>
+    <td>/ignore</td>
+    <td>Allows the exemption of being ignored.</td>
+  </tr>
+            <tr>
+    <td>basicx.ignore.all </td>
+    <td>/ignore</td>
+    <td>Allows you to ignore all players regardless of permissions/op.</td>
+  </tr>
+            <tr>
+    <td>basicx.rules</td>
+    <td>/rules</td>
+    <td>Allow players to view rules specified in the config file.</td>
+  </tr>
+            <tr>
+    <td>basicx.setspawn</td>
+    <td>/setspawn</td>
+    <td>Set a world spawn.</td>
+  </tr>
+            <tr>
+    <td>basicx.spawn</td>
+    <td>/spawn</td>
+    <td>Teleport to spawn.</td>
+  </tr>
+            <tr>
+    <td>basicx.jump</td>
+    <td>/jump</td>
+    <td>Allows you to teleport to the block they are looking at.</td>
+  </tr>
+            <tr>
+    <td>basicx.tppos</td>
+    <td>/tppos [X] [Y] [Z]</td>
+    <td>Teleport to a specified coordinate.</td>
+  </tr>
+            <tr>
+    <td>permbasicx.teleportcooldown.bypass</td>
+    <td>/tpa, /spawn</td>
+    <td>Allows you to bypass a teleport cooldown.</td>
+  </tr>
+            <tr>
+    <td>basicx.ip</td>
+    <td>/ip</td>
+    <td>View the server's IP.</td>
+  </tr>
+            <tr>
+    <td>basicx.chatcolor</td>
+    <td></td>
+    <td>Allows color formatting in chat.</td>
+  </tr>
+            <tr>
+    <td>basicx.staffchat</td>
+    <td>@ [message]</td>
+    <td>Allows you to send and receive staff chat messages.</td>
+  </tr>
+            <tr>
+    <td>basicx.motd</td>
+    <td>/motd</td>
+    <td>View the server's MOTD.</td>
+  </tr>
+            <tr>
+    <td>basicx.extinguish</td>
+    <td>/ext</td>
+    <td>Remove a fire</td>
+  </tr>
+            <tr>
+    <td>basicx.extinguish.others</td>
+    <td>/ext [player]</td>
+    <td>Allows you to extinguish other players.</td>
+  </tr>
+            <tr>
+    <td>basicx.fire</td>
+    <td>/fire [player] [seconds]</td>
+    <td>Set fire to a player for a number of seconds.</td>
+  </tr>
+            <tr>
+    <td>basicx.nightvision</td>
+    <td>/nv</td>
+    <td>Toggle nightvision.</td>
+  </tr>
+            <tr>
+    <td>basicx.nightvision.others</td>
+    <td>/nv [player]</td>
+    <td>Toggle nightvision for others.</td>
+  </tr>
+            <tr>
+    <td>basicx.clearchat</td>
+    <td>/cc</td>
+    <td>Clear the global chat.</td>
+  </tr>
+            <tr>
+    <td>basicx.personalclearchat</td>
+    <td>/pcc</td>
+    <td>Clears your personal chat.</td>
+  </tr>
+            <tr>
+    <td>basicx.healcooldown.bypass</td>
+    <td>/heal</td>
+    <td>Allows you to bypass the /heal cooldown.</td>
+  </tr>
+            <tr>
+    <td>basicx.feedcooldown.bypass</td>
+    <td>/feed</td>
+    <td>Allows you to bypass the /feed cooldown.</td>
+  </tr>
+            <tr>
+    <td>basicx.commandcooldown.bypass</td>
+    <td>/[command]</td>
+    <td>Allows you to bypass the command cooldown.</td>
+  </tr>
+  <tr>
+    <td>basicx.fakejoin</td>
+    <td>/fakejoin</td>
+    <td>Sends your fake join message to the server.</td>
+  </tr>
+  <tr>
+    <td>basicx.fakeleave</td>
+    <td>/fakeleave</td>
+    <td>Sends your fake leave message to the server.</td>
+  </tr>
+  <tr>
+    <td>basicx.sethome</td>
+    <td>/sethome [name]</td>
+    <td>Set a home.</td>
+  </tr>
+  <tr>
+    <td>basicx.home</td>
+    <td>/home [name]</td>
+    <td>Teleport to specified home.</td>
+  </tr>
+  <tr>
+    <td>basicx.delhome</td>
+    <td>/delhome [name]</td>
+    <td>Delete an existing home</td>
+  </tr>
+  <tr>
+    <td>basicx.sethome.(number)</td>
+    <td>/sethome [name]</td>
+    <td>Allows you to grant a player a specific number of homes.</td>
+  </tr>
+  <tr>
+    <td>basicx.commandcooldown.bypass</td>
+    <td>/[command]</td>
+    <td>Allows you to bypass the command cooldown.</td>
+  </tr>
+  <tr>
+    <td>basicx.homes</td>
+    <td>/homes</td>
+    <td>View a list of your homes.</td>
+  </tr>
+  <tr>
+    <td>basicx.worldtp</td>
+    <td>/worldtp [world]</td>
+    <td>Teleport to a specific world.</td>
+  </tr>
+  <tr>
+    <td>basicx.setwarp</td>
+    <td>/setwarp [name]</td>
+    <td>Set a warp.</td>
+  </tr>
+  <tr>
+    <td>basicx.warps</td>
+    <td>/warps</td>
+    <td>View a list of warps you have permission to travel to.</td>
+  </tr>
+  <tr>
+    <td>basicx.warp</td>
+    <td>/warp [name]</td>
+    <td>Teleport to a warp.</td>
+  </tr>
+  <tr>
+    <td>basicx.warp.(name)</td>
+    <td>/warp [name]</td>
+    <td>Allows to set specific warp permissions.</td>
+  </tr>
+    <tr>
+    <td>basicx.staff</td>
+    <td>/staff</td>
+    <td>Opens a customizable staff GUI.</td>
+  </tr>
+	  </table>
+	</div>
+  
+  <div id="myNav" class="overlay">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  
+    <div class="overlay-content">
+	  <a href="index.html">Home</a>
+      <a href="faqs.html">FAQs</a>
+      <a href="commands.html">Commands</a>
+	  <a href="https://discord.gg/Zr8jMsX" target="_blank">Discord</a>
+      <a href="https://github.com/jluvisi2021">GitHub</a>
+    </div>
+  </div>
+  
+  <script>
+    function openNav() {
+      document.getElementById("myNav").style.width = "100%";
+    }
+
+    function closeNav() {
+      document.getElementById("myNav").style.width = "0%";
+    }
+</script>
+  
+  </body>
+</html>

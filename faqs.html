@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	
+    <title>BasicX - FAQs</title>
+    <link rel="stylesheet" href="faqs.css"/>
+	
+  </head>
+  <body>
+  
+    <div class="background"></div>
+	
+	<div id="main">
+  
+    <span class="nav" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Menu</span>
+  
+    <div class="sticky">
+	</div>
+	
+    <h1 class="faqs">- Coming Soon -</h1>
+	<a href="https://github.com/jluvisi2021/BasicX/raw/master/Versions/BasicX-LATEST.jar"><img class="download" src="download.png"/></a>
+	
+	</div>
+  
+      <div id="mySidenav" class="sidenav">
+	    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+	    <a href="index.html">Home</a>
+        <a href="faqs.html">FAQs</a>
+        <a href="commands.html">Commands</a>
+  	    <a href="https://discord.gg/Zr8jMsX" target="_blank">Discord</a>
+        <a href="https://github.com/jluvisi2021" target="_blank">GitHub</a>
+      </div>
+  
+<script>
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "250px";
+      document.getElementById("main").style.marginLeft = "250px";
+      document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+    }
+
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+      document.getElementById("main").style.marginLeft= "0";
+      document.body.style.backgroundColor = "white";
+    }
+</script>
+  
+  </body>
+</html>

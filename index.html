@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	
+    <title>BasicX - Home</title>
+    <link rel="stylesheet" href="index.css"/>
+	
+  </head>
+  <body>
+  
+    <div class="background"></div>
+  
+    <span class="nav" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Menu</span>
+	
+	<p class="version"><b>Moderation Update (0.5)</b></p>
+  
+    <div class="sticky">
+      <a href="https://discord.gg/Zr8jMsX" target="_blank"><img class="discord" src="discord.png" width="75" height="75"/></a>
+   	  <a href="https://github.com/jluvisi2021" target="_blank"><img class="github" src="github.png" width="75" height="75"/></a>
+	</div>
+	
+    <h1 class="logo">- BasicX -</h1>
+	<p class="slogan">~ <i>A better fundamentals. A better Essentials.</i> ~</p>
+	<a href="https://github.com/jluvisi2021/BasicX/raw/master/Versions/BasicX-LATEST.jar"><img class="download" src="download.png"/></a>
+  
+    <div id="myNav" class="overlay">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  
+      <div class="overlay-content">
+	    <a href="index.html">Home</a>
+        <a href="faqs.html">FAQs</a>
+        <a href="commands.html">Commands</a>
+  	    <a href="https://discord.gg/Zr8jMsX" target="_blank">Discord</a>
+        <a href="https://github.com/jluvisi2021" target="_blank">GitHub</a>
+      </div>
+    </div>
+  
+<script>
+    function openNav() {
+      document.getElementById("myNav").style.width = "100%";
+    }
+
+    function closeNav() {
+      document.getElementById("myNav").style.width = "0%";
+    }
+</script>
+  
+  </body>
+</html>
